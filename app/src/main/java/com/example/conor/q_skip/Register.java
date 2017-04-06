@@ -31,7 +31,8 @@ public class Register extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+
+        etContentView(R.layout.activity_register);
 
 
         final EditText etName = (EditText) findViewById(R.id.etName);
